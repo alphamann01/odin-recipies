@@ -1,7 +1,33 @@
-.ch {
-    color: orange;
+body {
+    background-color: pink;
+    
 }
 
 p {
-    color: green;
+    font-size: 20px;
+    color: darkgreen;
 }
+
+img {
+    width: auto;
+}
+
+#ch,h2 {
+    color:gold;
+    font-size: 40px;
+}
+
+.list {
+    font-size: 130px;
+}
+
+.list .li {
+    font-size: 25px;
+    color: brown;
+}
+
+#ordered-list .ordered-li {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    }
