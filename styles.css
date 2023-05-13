@@ -1,12 +1,16 @@
 body {
     background-color: pink;
-    
+    margin: 0;
+    padding: 0;
 }
+
 
 p {
     font-size: 20px;
     color: black;
 }
+
+
 
 img {
     width: auto;
@@ -17,14 +21,12 @@ img {
     font-size: 40px;
 }
 
-.list {
-    font-size: 130px;
-    margin-top: 10px;
-}
+
 
 .list .li {
-    font-size: 25px;
+    font-size: 20px;
     color: brown;
+    
     
 }
 
@@ -36,9 +38,7 @@ img {
    
 }
 
-#steps {
-    margin-top: 200px;
-}
+
 
 .pizza-h1,.pizza-h2 {
     color: green;
@@ -55,11 +55,33 @@ img {
 }
 
 .pizza-pic {
-    width: 150px;
+    width: 250px;
 
 }
 
 .pizza-p {
     text-align: center;
     color: red;
+}
+
+.pasta-h1,.pasta-h2 {
+    color: brown;
+}
+
+.pasta-p {
+    color: #133337;
+}
+
+.pasta-ol .pasta-li {
+    text-align: right;
+    color: #065535;
+    font-weight: bold;
+}
+.pasta-ul .pasta-list {
+    font-size: 20px;
+    color: #794944;
+}
+
+.pasta-pic {
+    width:auto;
 }
